@@ -1,3 +1,10 @@
+---
+layout: default
+title: SECE Whitepaper
+---
+
+{% include nav.html %}
+
 # SECE: A Synthetic Emotional Cognition Engine
 
 ## Abstract
