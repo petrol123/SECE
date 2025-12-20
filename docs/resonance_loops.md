@@ -1,3 +1,10 @@
+---
+layout: default
+title: Resonance Loops
+---
+
+{% include nav.html %}
+
 # Resonance Loops
 
 Resonance loops model how emotional signals amplify, stabilize, or interfere  
