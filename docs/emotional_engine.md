@@ -1,3 +1,10 @@
+---
+layout: default
+title: Emotional Engine
+---
+
+{% include nav.html %}
+
 # Emotional Weight Engine
 
 The Emotional Weight Engine is the core of SECE.  
