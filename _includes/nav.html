@@ -1,0 +1,7 @@
+<nav style="text-align:center; margin-bottom: 2rem;">
+  {% for item in site.nav %}
+    <a href="{{ item.link }}" style="margin: 0 1rem; font-weight: bold;">
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
