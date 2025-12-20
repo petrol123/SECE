@@ -2,17 +2,3 @@ theme: jekyll-theme-cayman
 title: SECE
 description: Synthetic Emotional Cognition Engine
 
-# Custom navigation links
-nav:
-  - name: Home
-    link: /
-  - name: Overview
-    link: /docs/overview.md
-  - name: Emotional Engine
-    link: /docs/emotional_engine.md
-  - name: Analog Drift
-    link: /docs/analog_drift.md
-  - name: Resonance Loops
-    link: /docs/resonance_loops.md
-  - name: Whitepaper
-    link: /paper/sece_whitepaper.md
