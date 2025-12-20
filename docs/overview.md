@@ -1,3 +1,12 @@
+---
+layout: default
+title: Overview
+---
+
+{% include nav.html %}
+
+# Overview
+
 # SECE Overview
 
 SECE (Synthetic Emotional Cognition Engine) is a modular emotional architecture  
