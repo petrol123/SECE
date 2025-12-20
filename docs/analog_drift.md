@@ -1,3 +1,10 @@
+---
+layout: default
+title: Analog Drift
+---
+
+{% include nav.html %}
+
 # Analog Drift Compensation
 
 SECE incorporates analog-inspired drift modeling to simulate:
