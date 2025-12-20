@@ -1,7 +1,5 @@
----
 layout: default
 title: Overview
----
 
 {% include nav.html %}
 
