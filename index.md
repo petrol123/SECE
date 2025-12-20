@@ -1,8 +1,6 @@
----
 layout: default
 title: SECE — Synthetic Emotional Cognition Engine
 
----
 {% include nav.html %}
 
 # SECE — Synthetic Emotional Cognition Engine
