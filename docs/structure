@@ -1,0 +1,12 @@
+/docs
+    emotional-weight-engine.md
+    analog-drift-compensation.md
+    resonance-loop-architecture.md
+    whitepaper.pdf
+    diagrams/
+
+/src
+    (optional future reference implementations)
+
+/examples
+    (optional usage demonstrations)
