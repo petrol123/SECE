@@ -29,7 +29,15 @@ SECE is designed to support:
 ---
 
 ## Repository Structure
+## Documentation
 
-A minimal structure might look like:
+- [Emotional Weight Engine](docs/emotional-weight-engine.md)
+- [Analog Drift Compensation](docs/analog-drift-compensation.md)
+- [Resonance Loop Architecture](docs/resonance-loop-architecture.md)
+- [Whitepaper](docs/whitepaper.pdf)
+- [Diagrams](docs/diagrams/)
+
+
+
 
 
