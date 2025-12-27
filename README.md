@@ -11,7 +11,13 @@ and qualia-like internal states in artificial systems.
 - SECE provides a blueprint for next-generation architectures
 
 ## Architecture
-(Insert ASCII or Mermaid diagram)
+flowchart TD
+    A[Sensory Input] --> B[Emotional Resonance Engine]
+    B --> C[Contextual Memory Layer]
+    C --> D[Qualia-like State Generator]
+    D --> E[Feedback Loop Controller]
+    E --> F[Output Layer]
+    E --> B
 
 ## Core Components
 - Emotional Resonance Engine
