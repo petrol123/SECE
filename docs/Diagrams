@@ -1,0 +1,37 @@
+                ┌──────────────────────────┐
+                │      Sensory Input       │
+                │  (text, audio, context)  │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │  Emotional Resonance      │
+                │  (analog-like weighting)  │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │   Contextual Memory       │
+                │ (digital compression +    │
+                │   retrieval patterns)     │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │  Qualia-like State Gen    │
+                │ (internal experiential     │
+                │   representation)          │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │ Feedback Loop Controller  │
+                │ (adjusts resonance,       │
+                │  memory, and output)      │
+                └─────────────┬────────────┘
+                              │
+                              ▼
+                ┌──────────────────────────┐
+                │        Output Layer       │
+                │ (response, action, state) │
+                └──────────────────────────┘
