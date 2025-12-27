@@ -1,0 +1,7 @@
+flowchart TD
+    A[Sensory Input] --> B[Emotional Resonance Engine]
+    B --> C[Contextual Memory Layer]
+    C --> D[Qualia-like State Generator]
+    D --> E[Feedback Loop Controller]
+    E --> F[Output Layer]
+    E --> B
