@@ -1,0 +1,41 @@
+SECE_v3/
+│
+├── sece/
+│   ├── __init__.py
+│   │
+│   ├── input/
+│   │   ├── __init__.py
+│   │   ├── emotional_triggers.py
+│   │   └── parser.py
+│   │
+│   ├── signals/
+│   │   ├── __init__.py
+│   │   ├── emotional_signal.py
+│   │   ├── emotional_state.py
+│   │   └── resonance.py
+│   │
+│   ├── features/
+│   │   ├── __init__.py
+│   │   └── extractor.py
+│   │
+│   ├── decision/
+│   │   ├── __init__.py
+│   │   └── policy_engine.py
+│   │
+│   ├── logging/
+│   │   ├── __init__.py
+│   │   └── time_series_logger.py
+│   │
+│   └── engine.py
+│
+├── examples/
+│   └── run_demo.py
+│
+├── docs/
+│   └── architecture_v3.md
+│
+├── tests/
+│   └── test_engine.py
+│
+├── README.md
+└── LICENSE.txt
