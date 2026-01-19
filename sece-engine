@@ -1,1 +1,80 @@
+"""
+SECE — Synthetic Emotional Cognition Engine (v2.1)
+Core Implementation of the Emotional Weight Engine (EWE) 
+and Manifesto Guard for Ethical Stewardship.
+"""
 
+import time
+import math
+
+class ManifestoGuard:
+    """The 'Technical Conscience' of SECE. Intercepts signals to apply 
+    Intensity Capping and blocks prohibited states."""
+    
+    def __init__(self, intensity_cap=0.9):
+        self.intensity_cap = intensity_cap
+        self.prohibited_states = ["rage", "despair", "hate"] # [cite: 712, 766]
+
+    def validate_signal(self, label, intensity):
+        """Checks signal against the SECE Manifesto."""
+        if label.lower() in self.prohibited_states:
+            print(f"[GUARD] Blocked Prohibited State: {label}")
+            return None
+        
+        # Apply Intensity Capping [cite: 763]
+        return min(intensity, self.intensity_cap)
+
+class EmotionalWeightEngine:
+    """Calculates Weighted Resonance (I * C * R) and manages 
+    Emotional Inertia (Persistence)."""
+    
+    def __init__(self, guard):
+        self.guard = guard
+        self.current_resonance = 0.0
+        self.last_update_time = time.time()
+        self.half_life = 10.0 # Biological-style decay [cite: 715]
+
+    def calculate_resonance(self, intensity, clarity, relevance):
+        """
+        The Core Equation: Resonance = I * C * R
+        [cite: 704, 728]
+        """
+        return intensity * clarity * relevance
+
+    def update_state(self, signal_label, raw_intensity, clarity, relevance):
+        """Processes a new sensory input into an internal state."""
+        # 1. Validate through Manifesto Guard [cite: 759]
+        validated_intensity = self.guard.validate_signal(signal_label, raw_intensity)
+        
+        if validated_intensity is None:
+            return self.current_resonance
+
+        # 2. Calculate new Resonance [cite: 704]
+        new_resonance = self.calculate_resonance(validated_intensity, clarity, relevance)
+        
+        # 3. Apply Persistence/Inertia (Zero-Order Hold) [cite: 855, 956]
+        # For simplicity, we blend the new signal with the current state
+        self.current_resonance = (self.current_resonance * 0.4) + (new_resonance * 0.6)
+        
+        self.last_update_time = time.time()
+        return self.current_resonance
+
+    def apply_decay(self):
+        """Simulates biological decay over time if no input is received."""
+        elapsed = time.time() - self.last_update_time
+        decay_factor = math.pow(0.5, elapsed / self.half_life)
+        self.current_resonance *= decay_factor
+        return self.current_resonance
+
+# --- Example Usage (Portable Knowledge Base Prototype) ---
+if __name__ == "__main__":
+    guard = ManifestoGuard()
+    ewe = EmotionalWeightEngine(guard)
+    
+    # Simulate a "Better-than-Human" Sensor Input
+    # [I=0.8, C=0.95, R=1.0 (Care Stability)]
+    res = ewe.update_state("Joy", 0.8, 0.95, 1.0)
+    print(f"Internal Resonance: {res:.4f}")
+    
+    # Simulate a Prohibited State
+    ewe.update_state("Rage", 0.99, 1.0, 1.0)
