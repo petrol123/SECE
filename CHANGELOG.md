@@ -1,5 +1,10 @@
 
 # SECE Changelog
+Added: ManifestoGuard class for intensity capping and state blocking.
+
+Implemented: Resonance=I×C×R core equation.
+
+Feature: Biological-style decay (half-life) for emotional inertia.
 
 ## Version 2.0 — January 2026
 - Updated README.md with new architecture and Version 2 direction
