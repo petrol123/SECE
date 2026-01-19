@@ -1,68 +1,35 @@
-
-# SECE — Synthetic Emotional Cognition Engine
-Version 2.0
+# SECE — Synthetic Emotional Cognition Engine (v2.0)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
 ## Overview
-SECE is a high‑level research framework for emotionally intelligent AI.  
-It models emotional resonance, contextual memory, and continuous internal states for use in assistive robotics, medical support systems, and human‑robot interaction.
+SECE is a high-level research framework for emotionally intelligent AI, transitioning from conceptual prototypes to a modular, five-layer system. [cite_start]It bridges the gap between "cold logic" and human "lived experience" by treating emotion as a **continuous analog regulatory signal**[cite: 691, 1205].
 
-SECE is not a product or a model.  
-It is a conceptual architecture intended for future collaborative development.
+## Core Innovations
+### 1. Analog Modulation Layer
+Unlike discrete digital AI, SECE models emotional dynamics (decay, resonance, and drift) as continuous fields. [cite_start]This mirrors biological homeostasis and provides the system with "emotional inertia"[cite: 1205, 1218].
 
-## Why SECE Exists
-Modern AI lacks:
-- emotional grounding  
-- continuity of experience  
-- internal feedback loops  
-- human‑aligned resonance  
+### 2. The Portable Knowledge Base (PKB)
+A self-contained, emotionally annotated memory substrate. [cite_start]The PKB allows memory to be versioned, audited, and carried across systems while maintaining its "subjective" emotional weighting[cite: 1252, 1262].
 
-SECE introduces:
-- emotional weighting  
-- contextual memory  
-- analog‑inspired internal states  
-- resonance‑based feedback loops  
-- ethical guardrails  
+### 3. Weighted Resonance Framework
+The engine calculates a "Resonance Score" to determine internal harmony or cognitive dissonance:
+$$Resonance = I \times C \times R$$
+[cite_start]*(Intensity, Clarity, Relevance)*[cite: 704, 728].
 
-## Architecture (High‑Level)
+## Architecture (v2 Rebuild)
+[cite_start]The framework is organized into a modular five-layer architecture inspired by analog signal processing:
+1. [cite_start]**Input Layer**: Converts raw sensor data into continuous signals[cite: 718, 736].
+2. [cite_start]**Emotional Signal Layer**: Manages decay and signal blending[cite: 719, 737].
+3. [cite_start]**Feature Extraction Layer**: Extracts stability, volatility, and coherence profiles[cite: 720, 738].
+4. [cite_start]**Decision Layer (Policy Engine)**: Translates states into adaptive behaviors[cite: 721, 739].
+5. [cite_start]**Logging & Feedback Layer**: Provides time-series data for research-grade auditing[cite: 722, 740].
 
+## Modular Privacy & Technical Access
+[cite_start]To ensure ethical stewardship and protect proprietary mathematical constants ("The Secret Sauce"), the core implementation is maintained in a **Restricted Access** Zenodo repository. 
 
-flowchart TD
-A[Sensory Input] --> B[Emotional Resonance Engine]
-B --> C[Contextual Memory Layer]
-C --> D[Qualia-like State Generator]
-D --> E[Feedback Loop Controller]
-E --> F[Output Layer]
-E --> B
+- **Public Specs**: See the `petrol123/SECE` public repo.
+- [cite_start]**Core Engine & Formulas**: Access can be requested via the Zenodo DOI link for verified researchers[cite: 1371].
 
-## Core Components
-- Emotional Resonance Engine  
-- Contextual Memory Layer  
-- Qualia‑like State Generator  
-- Feedback Loop Controller  
-
-## New in Version 2.0
-- Analog‑inspired emotional dynamics  
-- Continuous emotional fields  
-- Drift and resonance modeling  
-- Hardware‑ready abstraction direction  
-- Expanded ethical framework  
-
-## Roadmap
-See `ROADMAP.md` for full details.
-
-## Contributing
-SECE welcomes collaboration from researchers in robotics, cognitive science, HRI, ethics, and neuromorphic engineering.
-
-## License
-MIT License © 2025–2026 Paul Totoritis
-
-## Ethical Use Addendum
-This project may not be used to:
-- manipulate or psychologically exploit individuals  
-- build coercive or deceptive systems  
-- impersonate real people without consent  
-- deploy emotional AI without transparency or oversight  
-
-Users agree to uphold principles of safety, dignity, and ethical stewardship.
-
+## Ethical Use Addendum (The Manifesto Guard)
+[cite_start]This framework implements the **Manifesto Guard**, which intercepts signals to prevent instability and blocks **Prohibited States** (Rage, Despair, Hate)[cite: 711, 712, 766].
 
