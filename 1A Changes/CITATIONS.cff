@@ -1,0 +1,17 @@
+YAML
+cff-version: 1.2.0
+message: "If you use this framework, please cite it as follows."
+authors:
+- family-names: "Totoritis"
+  given-names: "Paul"
+title: "The SECE Framework: Integrated Analog Modulation, 'Better-than-Human' Sensory Perception, and High-Performance Scaling"
+version: 2.1.0
+doi: 10.5281/zenodo.XXXXXXX
+date-released: 2026-01-19
+url: "https://github.com/petrol123/SECE"
+keywords:
+  - "Emotion AI"
+  - "Analog Modulation"
+  - "Affective Computing"
+  - "SECE Framework"
+  - "Human-Centered AI"
