@@ -1,1 +1,2263 @@
-
+(export 
+  (version "D")
+  (design
+    (source "pentad_cortex_output_1.py")
+    (date "03/16/2026 04:06 PM")
+    (tool "SKiDL (2.2.1)")
+    (sheet
+      (number 1)
+      (name "/")
+      (tstamps "/")
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "pentad_cortex_output_1.py")
+        (comment
+          (number "1")
+          (value ""))
+        (comment
+          (number "2")
+          (value ""))
+        (comment
+          (number "3")
+          (value ""))
+        (comment
+          (number "4")
+          (value ""))
+        (comment
+          (number "5")
+          (value ""))
+        (comment
+          (number "6")
+          (value ""))
+        (comment
+          (number "7")
+          (value ""))
+        (comment
+          (number "8")
+          (value ""))
+        (comment
+          (number "9")
+          (value "")))))
+  (components
+    (comp
+      (ref "C_ACCEL_DEC")
+      (value "100nF")
+      (description "Unpolarized capacitor")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "bqR0UHlPmx")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "43135ee2-1767-5d6a-9db9-e6f013da1c25"))
+    (comp
+      (ref "C_ACCEL_FILT")
+      (value "100nF")
+      (description "Unpolarized capacitor")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "_pLGoC6aOT")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "e1e746eb-5f3d-5341-9e09-863e6d749abc"))
+    (comp
+      (ref "C_ECG_DEC")
+      (value "100nF")
+      (description "Unpolarized capacitor")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "BWBb2Xc87v")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "f572e9bb-3ee5-523a-805f-29141b0f00d9"))
+    (comp
+      (ref "C_ECG_FILT")
+      (value "390nF")
+      (description "Unpolarized capacitor")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "cuJk4JaAKd")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "40998984-b1a0-5e33-b963-0708024b0c45"))
+    (comp
+      (ref "C_EMG_DEC")
+      (value "100nF")
+      (description "Unpolarized capacitor")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "6HuBQPWOIZ")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "57e407f4-582f-51c3-b153-11b10c495a94"))
+    (comp
+      (ref "C_EMG_FILT")
+      (value "33nF")
+      (description "Unpolarized capacitor")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "10_IwAyyJL")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "887b2b65-567b-594f-91c9-4deb884c136f"))
+    (comp
+      (ref "C_GSR_DEC")
+      (value "100nF")
+      (description "Unpolarized capacitor")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "NA7i1YjlE6")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "a492b280-3b69-5e70-9018-1ec568a1c317"))
+    (comp
+      (ref "C_GSR_FILT")
+      (value "1uF")
+      (description "Unpolarized capacitor")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "J8KLc2dAmH")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "4ca27fc5-f8d7-5b5c-a8b0-4bfedf5db094"))
+    (comp
+      (ref "C_RESP_DEC")
+      (value "100nF")
+      (description "Unpolarized capacitor")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "F8zwFtiCIM")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "fc24d037-99d3-525d-9e3b-a68a4c1524d9"))
+    (comp
+      (ref "C_RESP_FILT")
+      (value "10uF")
+      (description "Unpolarized capacitor")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "OuJ2zVD3uy")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "3da947a2-ec41-55ae-95db-da88debd1522"))
+    (comp
+      (ref "D_CLAMP_ACCEL")
+      (value "BZX84C3V3")
+      (description "Zener diode")
+      (footprint "Diodes_SMD:BZX84C3V3")
+      (fields
+        (field
+          (name "Description") "Zener diode")
+        (field
+          (name "Footprint") "Diodes_SMD:BZX84C3V3")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "hc_kvSnOLf")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "D_Zener"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "b63be019-f840-5c9b-b4ff-093a09512e97"))
+    (comp
+      (ref "D_CLAMP_ANXIETY_STATE")
+      (value "BZX84C3V3")
+      (description "Zener diode")
+      (footprint "Diodes_SMD:BZX84C3V3")
+      (fields
+        (field
+          (name "Description") "Zener diode")
+        (field
+          (name "Footprint") "Diodes_SMD:BZX84C3V3")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "uXJu9OljUt")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "D_Zener"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "18e7fb91-9673-5dff-8d03-d17ee9e2da8d"))
+    (comp
+      (ref "D_CLAMP_AROUSAL")
+      (value "BZX84C3V3")
+      (description "Zener diode")
+      (footprint "Diodes_SMD:BZX84C3V3")
+      (fields
+        (field
+          (name "Description") "Zener diode")
+        (field
+          (name "Footprint") "Diodes_SMD:BZX84C3V3")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "_VVC6cqHRS")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "D_Zener"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "b29a627d-e050-53c1-9796-512b44ea403a"))
+    (comp
+      (ref "D_CLAMP_ECG")
+      (value "BZX84C3V3")
+      (description "Zener diode")
+      (footprint "Diodes_SMD:BZX84C3V3")
+      (fields
+        (field
+          (name "Description") "Zener diode")
+        (field
+          (name "Footprint") "Diodes_SMD:BZX84C3V3")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "a_aj7BFkRA")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "D_Zener"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "3c4a7fbf-5d1a-5b30-ae4c-bc13d7bb42c6"))
+    (comp
+      (ref "D_CLAMP_EMG")
+      (value "BZX84C3V3")
+      (description "Zener diode")
+      (footprint "Diodes_SMD:BZX84C3V3")
+      (fields
+        (field
+          (name "Description") "Zener diode")
+        (field
+          (name "Footprint") "Diodes_SMD:BZX84C3V3")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "XZpVfBaUSY")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "D_Zener"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "39e87853-307a-5499-b9e0-6c08883dbaba"))
+    (comp
+      (ref "D_CLAMP_FALL_STATE")
+      (value "BZX84C3V3")
+      (description "Zener diode")
+      (footprint "Diodes_SMD:BZX84C3V3")
+      (fields
+        (field
+          (name "Description") "Zener diode")
+        (field
+          (name "Footprint") "Diodes_SMD:BZX84C3V3")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "caKdcpcg2Z")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "D_Zener"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "0455dca2-c799-5ca3-8dd5-2b1c48d50e29"))
+    (comp
+      (ref "D_CLAMP_GSR")
+      (value "BZX84C3V3")
+      (description "Zener diode")
+      (footprint "Diodes_SMD:BZX84C3V3")
+      (fields
+        (field
+          (name "Description") "Zener diode")
+        (field
+          (name "Footprint") "Diodes_SMD:BZX84C3V3")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "oS_HqdE8cT")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "D_Zener"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "6e2b1236-5eed-5f57-8f1d-b3187bb1aa1f"))
+    (comp
+      (ref "D_CLAMP_RESP")
+      (value "BZX84C3V3")
+      (description "Zener diode")
+      (footprint "Diodes_SMD:BZX84C3V3")
+      (fields
+        (field
+          (name "Description") "Zener diode")
+        (field
+          (name "Footprint") "Diodes_SMD:BZX84C3V3")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "F3I0Iw9cHm")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "D_Zener"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c55a70cb-211d-5bb6-8e5e-80b681192acd"))
+    (comp
+      (ref "D_CLAMP_VALENCE")
+      (value "BZX84C3V3")
+      (description "Zener diode")
+      (footprint "Diodes_SMD:BZX84C3V3")
+      (fields
+        (field
+          (name "Description") "Zener diode")
+        (field
+          (name "Footprint") "Diodes_SMD:BZX84C3V3")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "RravI35h1A")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "D_Zener"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "2927dd4d-8c47-520a-b86a-a01d000bb4c8"))
+    (comp
+      (ref "J_ACCEL")
+      (value "Conn_01x02")
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "NnKH_eoQc5")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:163"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x02"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "9cab98c4-ae92-510b-8c0f-0af11aecd49e"))
+    (comp
+      (ref "J_ALERT")
+      (value "Conn_01x01")
+      (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x01")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "DNy1lUHTlE")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:378"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x01"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "a48e7ce9-fb2d-5807-af6f-a1717ee8e370"))
+    (comp
+      (ref "J_ANXIETY_STATE")
+      (value "Conn_01x01")
+      (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x01")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "M6YPujOlXr")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:360"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x01"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "1dc49a4a-f46f-59d4-921f-a6e9d45a588a"))
+    (comp
+      (ref "J_AROUSAL")
+      (value "Conn_01x01")
+      (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x01")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "lXX2F3XTxN")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:360"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x01"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "66926493-4311-5d6f-87ae-cc608bae16c8"))
+    (comp
+      (ref "J_ECG")
+      (value "Conn_01x02")
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "WryLQYA9CJ")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:163"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x02"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "7ed651a7-a4b5-5873-824a-c2395340b44a"))
+    (comp
+      (ref "J_EMG")
+      (value "Conn_01x02")
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "iipwQCjlFw")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:163"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x02"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "2b0bab7c-9045-55ee-8833-5983b2fc44b0"))
+    (comp
+      (ref "J_FALL_STATE")
+      (value "Conn_01x01")
+      (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x01")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "VnxJb_3tIC")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:360"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x01"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "ed15801b-c9b2-56b0-8b73-b7b5a58aa979"))
+    (comp
+      (ref "J_GSR")
+      (value "Conn_01x02")
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "JXPAL5DwLx")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:163"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x02"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "76584884-acb3-565f-b6dd-f1dc5e2d9d85"))
+    (comp
+      (ref "J_RESP")
+      (value "Conn_01x02")
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "3SWMhy1wFD")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:163"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x02"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "2dbf6683-bbfc-5ff7-81c5-9a47097fb4ec"))
+    (comp
+      (ref "J_VALENCE")
+      (value "Conn_01x01")
+      (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x01")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "wcGWPnYzbf")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:360"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x01"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "e16bdbc2-3c4f-58b7-b538-b993940dec86"))
+    (comp
+      (ref "R_ACCEL_B1")
+      (value "100k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "dql5x8BaIL")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:183"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "4220afaa-9bd4-5a73-b00e-73f9f337ae98"))
+    (comp
+      (ref "R_ACCEL_B2")
+      (value "100k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "fggvwEKcIf")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:184"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "e1434b5d-a5f5-5591-bb1d-cc4c7924ea05"))
+    (comp
+      (ref "R_ACCEL_F1")
+      (value "100k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "d_qZm5klTv")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "6728e06e-d884-53bd-b4aa-b63cd69805ba"))
+    (comp
+      (ref "R_ACCEL_F2")
+      (value "100k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "BNCK_0hcHn")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "6482720f-9afc-5607-baea-aef33f035210"))
+    (comp
+      (ref "R_ACCEL_FILT")
+      (value "16k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "Ejb1oB_n0K")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "cbf5adc3-1dd5-5955-90e4-e0cd4a13f929"))
+    (comp
+      (ref "R_ACCEL_IN1")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "gbbaHU9bON")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "1a0b0d0f-e0ab-5d2b-9dd6-f176a55ddbec"))
+    (comp
+      (ref "R_ACCEL_IN2")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "c41V6h8Y8p")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "0221e44a-04b2-501b-86e0-996e52e91d53"))
+    (comp
+      (ref "R_ACCEL_P1")
+      (value "1M")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "W_5LlHKQww")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:173"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "adb1ed8c-acb5-55ca-9a8b-407467f26ba8"))
+    (comp
+      (ref "R_ACCEL_P2")
+      (value "1M")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "XCKUX4HQ0a")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:174"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c38df70c-8106-54db-b59b-23e8d7acff8b"))
+    (comp
+      (ref "R_ALERT_PD")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "fC3ZFzsYla")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "2120211f-e885-5258-ae68-6cabee0a9ea7"))
+    (comp
+      (ref "R_CLAMP_ACCEL")
+      (value "1k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "KKroS3dLGH")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "2caa76d5-d2bc-5bc9-99e4-242933a4e8f6"))
+    (comp
+      (ref "R_CLAMP_ANXIETY_STATE")
+      (value "1k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "Xzzn2gTdrV")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "2ed9dea2-58ca-528a-b8f4-41f1bd2d69a9"))
+    (comp
+      (ref "R_CLAMP_AROUSAL")
+      (value "1k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "R7JzotXZpt")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "2e736d58-7654-5b5c-b5d7-06471f47d572"))
+    (comp
+      (ref "R_CLAMP_ECG")
+      (value "1k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "vyUqRnD86w")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "abeb840e-211f-5cea-ba0e-74242dc16357"))
+    (comp
+      (ref "R_CLAMP_EMG")
+      (value "1k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "NEHI2EZbmh")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "407bf8a3-c0d9-5c69-95a8-a4fd3e842869"))
+    (comp
+      (ref "R_CLAMP_FALL_STATE")
+      (value "1k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "2daBXnuy0z")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "fe74e9f4-3cb7-5a02-bfc6-ae1e00ffd69c"))
+    (comp
+      (ref "R_CLAMP_GSR")
+      (value "1k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "8jnvExWICn")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "ff3196a2-bcd8-5264-a9fe-bb3c7e1f46c5"))
+    (comp
+      (ref "R_CLAMP_RESP")
+      (value "1k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "4kTRihXyEJ")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "f47f0104-0ef4-5915-b9fc-5d792330523b"))
+    (comp
+      (ref "R_CLAMP_VALENCE")
+      (value "1k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "ToAG_nUFjg")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c9ad90be-3935-56fe-9313-a1dda16bb473"))
+    (comp
+      (ref "R_ECG_B1")
+      (value "100k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "iLkQVKxoKy")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:183"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "23729e9c-15c2-5f4d-9e45-a33f40ae12af"))
+    (comp
+      (ref "R_ECG_B2")
+      (value "100k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "R6ISpsQBNS")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:184"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c5f971b9-293a-5764-8587-febe254881e9"))
+    (comp
+      (ref "R_ECG_F1")
+      (value "100k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "kMpZ4HVIJ2")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "99504c47-d9cc-5543-a35d-e494b1c5457f"))
+    (comp
+      (ref "R_ECG_F2")
+      (value "100k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "RnUJSjkol0")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "1b3f4718-e17b-5687-80ac-c272ad9fce63"))
+    (comp
+      (ref "R_ECG_FILT")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "zXO1ZF6cMl")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "f6c6c956-9bf3-5c65-b5d0-f1825594b4ed"))
+    (comp
+      (ref "R_ECG_IN1")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "doWKv08113")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "6547d74f-900d-5579-bb09-707fc7e70f20"))
+    (comp
+      (ref "R_ECG_IN2")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "d_NuZ95_M1")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "2440a18e-3aa1-501b-b4d7-8ba67ec288b9"))
+    (comp
+      (ref "R_ECG_P1")
+      (value "1M")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "ncKz0aCfJ2")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:173"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "a6fe28f5-e10f-5600-a285-3114790bbe99"))
+    (comp
+      (ref "R_ECG_P2")
+      (value "1M")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "Np5PceWx_d")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:174"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "aa30b9f3-be17-5870-a4f3-e44efa0d9aaf"))
+    (comp
+      (ref "R_EMG_B1")
+      (value "100k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "O04vOSjygX")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:183"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "22d4d737-7160-5167-9fd8-76e57c916a23"))
+    (comp
+      (ref "R_EMG_B2")
+      (value "100k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "0vXjUgv9md")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:184"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "016af34a-be4b-548d-aea4-e2a0a29fb3a8"))
+    (comp
+      (ref "R_EMG_F1")
+      (value "470k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "b_ZAjqZn6W")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "a2795097-fa9b-541b-a491-569ef3dbe72a"))
+    (comp
+      (ref "R_EMG_F2")
+      (value "470k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "I9mm0BgnhG")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "1a5e5075-96f8-5d72-b4b7-02d44e43ec28"))
+    (comp
+      (ref "R_EMG_FILT")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "BuZfgZFZVj")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "e1650855-78c5-5944-a33e-c4164a606dad"))
+    (comp
+      (ref "R_EMG_IN1")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "YvrcxL1ofd")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "98f2e249-489c-50d6-aff6-612556781e83"))
+    (comp
+      (ref "R_EMG_IN2")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "dElTYzEgC4")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "dff9e741-14e1-5be1-9cf2-c04cf3991f3a"))
+    (comp
+      (ref "R_EMG_P1")
+      (value "1M")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "VW_hIopHcF")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:173"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "7a3c1b33-6612-5db4-9393-9634f71a9873"))
+    (comp
+      (ref "R_EMG_P2")
+      (value "1M")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "BY3wDe5uqi")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:174"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "32cbcdff-3a2f-58bb-9dc0-6ae27eb7795b"))
+    (comp
+      (ref "R_GSR_B1")
+      (value "100k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "clJohVRM82")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:183"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "ffd2f4e9-8919-59ca-94f8-f164d8a7497a"))
+    (comp
+      (ref "R_GSR_B2")
+      (value "100k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "7WyNBHfmof")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:184"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "f4910aab-5d4b-5049-af47-16706a984dc7"))
+    (comp
+      (ref "R_GSR_F1")
+      (value "100k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "mRiGsN8IC7")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "aa42e9f8-1540-5f17-9734-8142114fa43d"))
+    (comp
+      (ref "R_GSR_F2")
+      (value "100k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "Es6zsJBXzP")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "2b9bbd52-e7b1-5fb8-9894-463f27b4aed1"))
+    (comp
+      (ref "R_GSR_FILT")
+      (value "16k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "GWq4nwv_Z5")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "b0326433-92da-52c2-a47f-43ae4ec87689"))
+    (comp
+      (ref "R_GSR_IN1")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "4wxA4pCy8I")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "8d7b5fe7-5524-5d51-a5f4-1756edc50707"))
+    (comp
+      (ref "R_GSR_IN2")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "argUPFjSpD")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "83b9ec96-ab22-5092-b88b-03ebac0e0d02"))
+    (comp
+      (ref "R_GSR_P1")
+      (value "1M")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "JbB3maInwD")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:173"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "504c3b4c-c286-5f41-9fa1-10a484aed0cc"))
+    (comp
+      (ref "R_GSR_P2")
+      (value "1M")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "tGaYyMWwOU")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:174"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "aca98d45-f52e-5d7b-ae5a-67161c346aea"))
+    (comp
+      (ref "R_RESP_B1")
+      (value "100k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "7ahpyiYXF7")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:183"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "e55bfeb9-1d76-5428-b1d4-56c2b956d982"))
+    (comp
+      (ref "R_RESP_B2")
+      (value "100k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "ps4W_qpkXt")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:184"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "f0383ed2-a9a7-54ce-bb79-ec66d124b78c"))
+    (comp
+      (ref "R_RESP_F1")
+      (value "100k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "HiHca_Q_ks")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "d9b4b27d-5b66-5f28-9c5f-deb6578ed2a6"))
+    (comp
+      (ref "R_RESP_F2")
+      (value "100k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "_nwPm0hK2n")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "73254754-c293-59d4-8638-fe747e241aa2"))
+    (comp
+      (ref "R_RESP_FILT")
+      (value "16k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "rMHtFAB5cP")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "b36bbcab-ab9e-552f-90a0-10f3b2d8d0c1"))
+    (comp
+      (ref "R_RESP_IN1")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "dAYmud5Gij")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "5181a182-75a6-57ef-9b0a-14682dcd1662"))
+    (comp
+      (ref "R_RESP_IN2")
+      (value "10k")
+      (description "Resistor")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "fjZL7Ku9Fp")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:78"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "957ba667-21a7-5599-b4c4-05beb4efa19e"))
+    (comp
+      (ref "R_RESP_P1")
+      (value "1M")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "1O5uz46AC2")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:173"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "0316bfc3-5d12-58fa-8ac4-2c14e90f9d8b"))
+    (comp
+      (ref "R_RESP_P2")
+      (value "1M")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "8oghYGcv1I")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:174"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "b55b5c71-aa5d-5c54-b616-91cb3c5cceed"))
+    (comp
+      (ref "U_ACCEL")
+      (value "MCP6002")
+      (description "MCP6002 Dual Op Amp, rail-to-rail, SOIC-8")
+      (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (fields
+        (field
+          (name "Description") "MCP6002 Dual Op Amp, rail-to-rail, SOIC-8")
+        (field
+          (name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+        (field
+          (name "Datasheet") "https://ww1.microchip.com/downloads/en/DeviceDoc/20099c.pdf")
+        (field
+          (name "SKiDL Tag") "uvjbdoF1Fj")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:197"))
+      (libsource
+        (lib "Custom_MCP")
+        (part "MCP6002"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "588f968e-4be3-55c5-bf2c-a432c1f59f77"))
+    (comp
+      (ref "U_ECG")
+      (value "MCP6002")
+      (description "MCP6002 Dual Op Amp, rail-to-rail, SOIC-8")
+      (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (fields
+        (field
+          (name "Description") "MCP6002 Dual Op Amp, rail-to-rail, SOIC-8")
+        (field
+          (name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+        (field
+          (name "Datasheet") "https://ww1.microchip.com/downloads/en/DeviceDoc/20099c.pdf")
+        (field
+          (name "SKiDL Tag") "eqm_9Pf3Gi")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:197"))
+      (libsource
+        (lib "Custom_MCP")
+        (part "MCP6002"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "2ac98248-f295-542b-ba31-41de40de6b90"))
+    (comp
+      (ref "U_EMG")
+      (value "MCP6002")
+      (description "MCP6002 Dual Op Amp, rail-to-rail, SOIC-8")
+      (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (fields
+        (field
+          (name "Description") "MCP6002 Dual Op Amp, rail-to-rail, SOIC-8")
+        (field
+          (name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+        (field
+          (name "Datasheet") "https://ww1.microchip.com/downloads/en/DeviceDoc/20099c.pdf")
+        (field
+          (name "SKiDL Tag") "OAxpgJnhYR")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:197"))
+      (libsource
+        (lib "Custom_MCP")
+        (part "MCP6002"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "d4c6ffd0-39a9-5962-a93d-fe5d258f4f68"))
+    (comp
+      (ref "U_GSR")
+      (value "MCP6002")
+      (description "MCP6002 Dual Op Amp, rail-to-rail, SOIC-8")
+      (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (fields
+        (field
+          (name "Description") "MCP6002 Dual Op Amp, rail-to-rail, SOIC-8")
+        (field
+          (name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+        (field
+          (name "Datasheet") "https://ww1.microchip.com/downloads/en/DeviceDoc/20099c.pdf")
+        (field
+          (name "SKiDL Tag") "HnWlj_Gb5s")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:197"))
+      (libsource
+        (lib "Custom_MCP")
+        (part "MCP6002"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "247b045c-7f08-5bd4-9e34-591464fde365"))
+    (comp
+      (ref "U_RESP")
+      (value "MCP6002")
+      (description "MCP6002 Dual Op Amp, rail-to-rail, SOIC-8")
+      (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (fields
+        (field
+          (name "Description") "MCP6002 Dual Op Amp, rail-to-rail, SOIC-8")
+        (field
+          (name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+        (field
+          (name "Datasheet") "https://ww1.microchip.com/downloads/en/DeviceDoc/20099c.pdf")
+        (field
+          (name "SKiDL Tag") "BVcFviqMF6")
+        (field
+          (name "SKiDL Line") "pentad_cortex_output_1.py:197"))
+      (libsource
+        (lib "Custom_MCP")
+        (part "MCP6002"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "598e44ea-551f-5ed2-a160-a44aa2038aba")))
+  (nets
+    (net
+      (code 1)
+      (name "+5V")
+      (class "Default")
+      (node
+        (ref "C_ACCEL_DEC")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_ECG_DEC")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_EMG_DEC")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_GSR_DEC")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_RESP_DEC")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_ACCEL_B1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_ACCEL_B2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_ECG_B1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_ECG_B2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_EMG_B1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_EMG_B2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_GSR_B1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_GSR_B2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_RESP_B1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_RESP_B2")
+        (pin "1")
+        (pintype "PASSIVE"))))
+    (net
+      (code 2)
+      (name "ACCEL_A")
+      (class "Default")
+      (node
+        (ref "R_ACCEL_B1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_ACCEL_IN1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_ACCEL_P1")
+        (pin "2")
+        (pintype "PASSIVE")))
+... (netlist truncated for brevity)
+)
